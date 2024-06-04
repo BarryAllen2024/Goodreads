@@ -26,27 +26,27 @@ print(random.choice(toReadList))
 
 #asks if you want another book
 
-answer = input("Do you want another book?"'\n')
+# answer = input("Do you want another book?"'\n')
 
-if answer == "no" or answer == "n":
-  print("Okay, have a nice day!")
-elif answer == "yes" or answer == "y":
-  while answer == "yes" or answer == "y":
-    if answer == "yes" or answer == "y":
-      print(random.choice(toReadList))
-      print()
-      print("Do you want another book?")
-      answer = input()
-      if answer == "no" or answer == "n":
-        print("Okay, have a nice day!")
-      if answer != "no" and answer != "n" and answer != "yes" and answer != "y":
-        print("Sorry, I didn't understand that. Please try again.")
-    elif answer == "no" or answer == "n":
-      print("Okay, have a nice day!")
-    else:
-      print("Sorry, I didn't understand that. Reload the code.")
-else:
-  print("Sorry, I didn't understand that. Reload the code.")
+# if answer == "no" or answer == "n":
+#   print("Okay, have a nice day!")
+# elif answer == "yes" or answer == "y":
+#   while answer == "yes" or answer == "y":
+#     if answer == "yes" or answer == "y":
+#       print(random.choice(toReadList))
+#       print()
+#       print("Do you want another book?")
+#       answer = input()
+#       if answer == "no" or answer == "n":
+#         print("Okay, have a nice day!")
+#       if answer != "no" and answer != "n" and answer != "yes" and answer != "y":
+#         print("Sorry, I didn't understand that. Please try again.")
+#     elif answer == "no" or answer == "n":
+#       print("Okay, have a nice day!")
+#     else:
+#       print("Sorry, I didn't understand that. Reload the code.")
+# else:
+#   print("Sorry, I didn't understand that. Reload the code.")
 
 
 
