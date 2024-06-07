@@ -25,4 +25,5 @@ for i in range(len(allShelvesList)):
 #goes through the list of titles and adds 1 to tbrCount if they are in the "to read" (code not used currently)
 
 print(random.choice(toReadList))
+
 #print(tbrCount) / optional if you want to count number of TBR books
