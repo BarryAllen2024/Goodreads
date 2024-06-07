@@ -29,7 +29,7 @@ print(random.choice(toReadList))
 
 print("\n")
 
-answer = input("How many more do you want? Please type a number: \n")
+answer = input("How many more do you want? Please type a number: \n \n")
 for i in range(int(answer)):
   print("\n")
   print(random.choice(toReadList))
