@@ -30,8 +30,8 @@ print(random.choice(toReadList))
 print("\n")
 
 answer = input("How many more do you want? Please type a number: \n \n")
+print("\n")
 for i in range(int(answer)):
-  print("\n")
   print(random.choice(toReadList))
   print("\n")
 #prints however many more random books you want
